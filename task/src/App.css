@@ -15,8 +15,14 @@
 }
 #frame__three {
   text-align: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 0vh;
+}
+#frame__four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10vh 0vh;
 }
 #frame__one__button,
 #providings__button {
@@ -104,6 +110,20 @@ b {
 #providing__content {
   margin: 0 0 2vh 0;
 }
+#frame__four__block__one,
+#frame__four__block__two {
+  font-size: 18px;
+}
+#frame__four__contact {
+  font-size: 24px;
+}
+*::-webkit-scrollbar {
+  width: 7px;
+  background-color: #fff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(182, 0, 6);
+}
 @media screen and (max-width: 63em) {
   #frame__one {
     display: flex;
@@ -118,8 +138,15 @@ b {
     padding-top: 0;
   }
   #frame__three {
-    padding-top: 3vh;
+    padding: 3vh 0vh;
     text-align: center;
+  }
+  #frame__four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 5vh 0vh 3vh 2vh;
   }
   #frame__one__line__one {
     font-size: 4.5vh;
@@ -166,5 +193,17 @@ b {
     text-align: center;
     padding: 0;
     margin-bottom: 5vh;
+  }
+  #frame__four__block__one,
+  #frame__four__block__two {
+    margin-bottom: 4vh;
+  }
+  #silverlight,
+  #ios,
+  #java,
+  #dotnet,
+  #blackberry,
+  #android {
+    width: 15vh;
   }
 }

@@ -21,27 +21,27 @@ export const Header = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-5">
-                        <Nav.Link href="#home" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Services</Nav.Link>
-                        <Nav.Link href="#home" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Product</Nav.Link>
-                        <Nav.Link href="#home" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Technology</Nav.Link>
-                        <Nav.Link href="#home" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>
+                        <Nav.Link href="/services" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Services</Nav.Link>
+                        <Nav.Link href="/product" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Product</Nav.Link>
+                        <Nav.Link href="/technology" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>Technology</Nav.Link>
+                        <Nav.Link href="/about" className='mr-4 d-flex flex-direction-row align-items-center ml-3'>
                             <div>About</div>
                             <ExpandMoreIcon/>
                         </Nav.Link>
-                        <Nav.Link href="#home" className='mr-4 ml-3 d-flex flex-direction-row align-items-center'>
+                        <Nav.Link href="/client" className='mr-4 ml-3 d-flex flex-direction-row align-items-center'>
                             <div>Client</div>
                             <ExpandMoreIcon/>
                         </Nav.Link>
-                        <Nav.Link href="#home" className=' ml-3 d-flex flex-direction-row align-items-center'>Partner</Nav.Link>
+                        <Nav.Link href="/partner" className=' ml-3 d-flex flex-direction-row align-items-center'>Partner</Nav.Link>
                     </Nav>
                     <Nav className='ml-auto'>
-                        <Nav.Link href="#home" className=' ml-3 d-flex flex-direction-row align-items-center'>
+                        <Nav.Link href="/home" className=' ml-3 d-flex flex-direction-row align-items-center'>
                             <HomeOutlinedIcon/>
                         </Nav.Link>
-                        <Nav.Link href="#home" className='ml-3 d-flex flex-direction-row align-items-center'>
+                        <Nav.Link href="/contact" className='ml-3 d-flex flex-direction-row align-items-center'>
                             <MailOutlineRoundedIcon/>
                         </Nav.Link>
-                        <Nav.Link href="#home" className='ml-3 d-flex flex-direction-row align-items-center'>
+                        <Nav.Link href="/share" className='ml-3 d-flex flex-direction-row align-items-center'>
                             <ShuffleRoundedIcon/>
                         </Nav.Link>
                     </Nav>
